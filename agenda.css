@@ -1,0 +1,45 @@
+
+
+body{
+	text-align:center;
+	background-image: url(fond.gif);
+	background-size:cover;
+	background-position:center;
+	flex-direction: row;
+	margin: 10%;
+	padding: 0px;
+}
+
+.arrondi
+{
+	border:solid 2px black;
+	border-radius:20px;
+	font-style:italic;
+	margin-top:-10%
+}
+
+h1{
+	color:white;
+	font-size:40px;
+}
+
+h2{
+	color:white;
+	text-decoration:underline;
+}
+
+.lab{
+	font-size:18px;
+	text-decoration:underline;
+	color:yellow;
+}
+
+
+	
+	
+	
+
+
+
+	
+
