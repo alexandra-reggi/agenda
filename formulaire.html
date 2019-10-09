@@ -23,20 +23,31 @@
 						</section>
 						
 						<section class="lab">
-							<p><label for="identifiants" required>Choisissez un identifiant:</label>
-							<input type="text" name="identifiants"placeholder="Entrez un pseudo"></p>
-							<label for="mot de passe" required>Choisissez un mot de passe:</label>
-							<input type="text" name="identifiants"placeholder="Entrez un mot de passe">
-							<p><label for="confirmation du mot de passe" required>Confirmez votre mot de passe:</label>
-							<input type="text" name="mot de passe"placeholder="Confirmez le mot de passe"></p>
+							<p  id="soul"><label for="identifiants" required><span>*</span>Choisissez un identifiant:</label>
+							<input type="text"name="identifiants"placeholder="Entrez un pseudo"></p>
+							
+							<p id="soul" ><label for="motdepasse"required><span>*</span>Choisissez un mot de passe:</label>
+							<input type="password" id="motdepasse" name="password" placeholder="  (8 caracteres minimum)
+							minlength="8"required></p>
+							
+							<p id="soul"><label for="confirmation du mot de passe"required><span>*</span>Confirmez votre mot de passe:</label>
+							<input type="password" id="pass" name="password"
+							minlength="8" required><p>
+							
 							<p><label for="datedenaissance" required>Date de naissance:</label>
 							<input type="date" name=""placeholder="Date de naissance"></p>
-							<p><label for="nom" required>Nom:</label>
+							
+							<p id="soul"><label for="nom" required><span>*</span>Nom:</label>
 							<input type="nom" name=""placeholder="Nom"></p>
+							
 							<p><label for="prenom" required>Prenom:</label>
 							<input type="prenom" name=""placeholder="Prenom"></p>
+							
 							<p><label for="email" required>Email:</label>
 							<input type="email" name=""placeholder="Email"></p>
+							
+							<p><label for="telephone" required>Telephone:</label>
+							<input type="Telephone" name=""placeholder="Telephone"></p>
 							
 							
 							
