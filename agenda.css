@@ -72,37 +72,76 @@ h1{
 	text-shadow:3px 3px 3px turquoise;
 }
 
-#tab{
+.t1{
+	border-collapse:solid 2px black;
+	border-radius:20px;
 
+}
+
+
+#test1 {
+	position: absolute;
+	margin-top: -125px;
+	margin-right: 50%;
+	width: 80px;
 	
+}
+
+.table	{
+	display: flex;
+	margin: 0;
+	font-size: 30px;
+
+}
+	
+.t2{
+	border:solid 1px black;
+	border: collapse;
+
 }	
 
-thead{
-	padding-left:100%;
+td{
+	border:solid 1px black;
+	border: collapse;
+
+}
+.td1{
+	border:solid 0px;
+	border: collapse;
+
+}	
+	
+	
+	
+#text1 {
+	margin-left: px;
+	align-content: space-between;
+}	
+ul {
+	float: right;
+	margin-top: -185px;
+}
+li {
+	list-style-type: none;
 }
 
-.ag{
-	color:black;
-	font-size:40px;
-	
-	
+#red {
+background-color: red;
+width: 120px;
 }
 
-
-
-
-
-#div1{
-	
+#blue {
+	background-color: blue;
+	width: 120px;
 }
 	
-	
-	
-	
-	
-	
+#green{
+	background-color: green;
+	width: 120px;
+}
 
+#yellow{
 
-
-	
-
+	background-color: yellow;
+	width: 120px;
+}
