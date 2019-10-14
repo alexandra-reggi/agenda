@@ -1,4 +1,4 @@
-
+/*FORMULAIRE*/
 
 body{
 	text-align:center;
@@ -46,6 +46,58 @@ span{
 #soul{
 	text-decoration:underline wavy red;
 }
+	
+	
+	
+	
+/*AGENDA*/
+
+.ag19{
+	background-image:url(fondbulle.gif);
+}
+
+.arrondi
+{
+	border:solid 2px black;
+	border-radius:20px;
+	font-style:italic;
+	margin-top:-10%
+	
+}
+
+h1{
+	color:white;
+	font-size:40px;
+	text-decoration:underline dotted white;
+	text-shadow:3px 3px 3px turquoise;
+}
+
+#tab{
+
+	
+}	
+
+thead{
+	padding-left:100%;
+}
+
+.ag{
+	color:black;
+	font-size:40px;
+	
+	
+}
+
+
+
+
+
+#div1{
+	
+}
+	
+	
+	
 	
 	
 	
