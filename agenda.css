@@ -56,14 +56,23 @@ span{
 	background-image:url(fondbulle.gif);
 }
 
+
+
+.ag{
+	font-size:200%;
+}
+
+
+
 .arrondi
 {
 	border:solid 2px black;
 	border-radius:20px;
 	font-style:italic;
-	margin-top:-10%
-	
+	margin-top:-10%	
 }
+
+
 
 h1{
 	color:white;
@@ -72,76 +81,158 @@ h1{
 	text-shadow:3px 3px 3px turquoise;
 }
 
+
+
 .t1{
 	border-collapse:solid 2px black;
 	border-radius:20px;
+}
+
+
+
+.bas{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+
+
+#bas1{
+		
+}
+
+
+
+#bas2{
+	padding: 0px 0px 0px;
 
 }
+
+
+
+#bas3{
+	padding-right: 35px;
+	padding-top: 3%;
+}
+
 
 
 #test1 {
-	position: absolute;
-	margin-top: -125px;
-	margin-right: 50%;
-	width: 80px;
-	
+	width:22%;
+	padding-top: 3%;
 }
+
+
 
 .table	{
 	display: flex;
 	margin: 0;
 	font-size: 30px;
-
 }
-	
-.t2{
-	border:solid 1px black;
-	border: collapse;
 
+
+
+.t2{
+	width:100%;
+	heigth:100%
+	border:solid 1px black;
+	border:collapse;
 }	
 
+
+
 td{
+	font-size:25px;
 	border:solid 1px black;
 	border: collapse;
-
 }
+
+
+
 .td1{
+	font-size:110%;
 	border:solid 0px;
 	border: collapse;
-
 }	
 	
 	
 	
 #text1 {
-	margin-left: px;
+	font-size:18;
+	margin-left: 50%;
 	align-content: space-between;
-}	
-ul {
-	float: right;
-	margin-top: -185px;
-}
-li {
-	list-style-type: none;
 }
 
-#red {
-background-color: red;
-width: 120px;
+
+
+ul {
+	width:50%;	
 }
+
+
+li {
+	list-style-type: none;	
+}
+
+
+
+#turquoise {
+background-color:#57F0F3;
+width: 150px;
+font-size:20px;
+}
+
+
 
 #blue {
 	background-color: blue;
-	width: 120px;
+	width: 150px;
+	font-size:20px;
 }
+
 	
 #green{
-	background-color: green;
-	width: 120px;
+	background-color:#EBA7F0;
+	width: 150px;
+	font-size:20px;
 }
 
-#yellow{
 
-	background-color: yellow;
-	width: 120px;
+
+#yellow{
+	background-color:#F30712;
+	width: 150px;
+	font-size:20px;
+}
+
+
+#red{
+	background-color:#F30712;
+}
+
+
+#rdv{
+	font-size:15px;
+}
+
+
+#j{
+	color:white;
+}
+
+
+#vac{
+	background-color:#57F0F3;
+}
+
+
+#fer{
+	background-color:#EBA7F0;	
+}
+
+
+a{
+	color:black;
+	font-size: 20px;
 }
